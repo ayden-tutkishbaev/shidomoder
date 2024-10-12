@@ -5,9 +5,6 @@ import datetime
 from dotenv import dotenv_values
 import os
 
-from pyrogram import Client
-from pyrogram.raw.functions.contacts import ResolveUsername
-
 config = dotenv_values(os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env'))
 
 
